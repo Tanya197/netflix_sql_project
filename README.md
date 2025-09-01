@@ -1,4 +1,4 @@
-![Alt Text](images/logo.png)
+![Alt Text]("C:\Users\tanya\Downloads\logo.png")
 
 
 
@@ -197,7 +197,7 @@ LIMIT 10;
 
 ## Objective: Identify the top 10 actors with the most appearances in Indian-produced movies.
 
-###1️⃣5️⃣ Categorize Content Based on the Presence of 'Kill' and 'Violence' Keywords
+### 1️⃣5️⃣ Categorize Content Based on the Presence of 'Kill' and 'Violence' Keywords
 SELECT 
     category,
     COUNT(*) AS content_count
