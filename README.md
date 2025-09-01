@@ -1,4 +1,5 @@
-![Alt Text]("C:\Users\tanya\Downloads\logo.png")
+![Alt Text](images/logo.png)
+
 
 
 # Overview
@@ -35,11 +36,10 @@ CREATE TABLE netflix
     listed_in    VARCHAR(250),
     description  VARCHAR(550)
 );
-
+```
 ## Business Problems & Solutions
-
 ### 1️⃣ Count the Number of Movies vs TV Shows
-```sql
+
 SELECT type, COUNT(*)
 FROM netflix
 GROUP BY type;
